@@ -6,7 +6,7 @@
 - Navigate in global frame of `map`
 
 ```bash
-ros2 launch mbs_navigation odom_navi.launch.py
+ros2 launch mbs_nav2_template odom_navi.launch.py
 ```
 
 ## Mapping
@@ -30,7 +30,7 @@ ros2 launch mbs_navigation odom_navi.launch.py
 # Dependencies
 
 ```bash
-sudo apt-get install ros-foxy-twist-mux\
-                     ros-foxy-navigation2\
-                     ros-foxy-nav2-bringup
+sudo apt-get install ros-$ROS_DISTRO-twist-mux\
+                     ros-$ROS_DISTRO-navigation2\
+                     ros-$ROS_DISTRO-nav2-bringup
 ```

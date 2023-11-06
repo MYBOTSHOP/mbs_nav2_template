@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>mbs_navigation</name>
+  <name>mbs_nav2_template</name>
   <version>1.2.0</version>
   <description>
-    The mbs_navigation provides roslaunch scripts for starting the navigation.
+    The mbs_nav2_template provides roslaunch scripts for starting the navigation.
   </description>
   <author email="support@mybotshop.de">Salman Omar Sohail</author>
   <maintainer email="support@mybotshop.de">Salman Omar Sohail</maintainer>

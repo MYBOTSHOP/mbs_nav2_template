@@ -19,14 +19,14 @@ def generate_launch_description():
     map_dir = LaunchConfiguration(
         'map',
         default=os.path.join(
-            get_package_share_directory('mbs_navigation'),
+            get_package_share_directory('mbs_nav2_template'),
             'maps',
             'devshop.yaml'))
 
     param_dir = LaunchConfiguration(
         'params_file',
         default=os.path.join(
-            get_package_share_directory('mbs_navigation'),
+            get_package_share_directory('mbs_nav2_template'),
             'param',
             'nav2_map.yaml'))
 
