@@ -225,13 +225,10 @@ global_costmap:
       publish_frequency: 1.0
       global_frame: map
       robot_base_frame: base_link
-
-      # Add globalcost map so that it wraps around the robot
-      height: 100
+      height: 100 # Add globalcost map so that it wraps around the robot
       width: 100
       origin_x: -50.0
       origin_y: -50.0
-
       use_sim_time: False
       robot_radius: 0.22
       resolution: 0.05
