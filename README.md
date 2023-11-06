@@ -15,19 +15,13 @@ ros2 launch mbs_nav2_template odom_navi.launch.py
 ## Mapping
 
 ```bash
-
-```
-
-## Localization
-
-```bash
-
+ros2 run slam_toolbox async_slam_toolbox_node
 ```
 
 ## Map Navigations
 
 ```bash
-
+ros2 launch mbs_nav2_template odom_navi.launch.py
 ```
 
 # Dependencies
