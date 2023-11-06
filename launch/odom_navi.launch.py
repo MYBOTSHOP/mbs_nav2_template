@@ -170,6 +170,9 @@ def generate_launch_description():
                 parameters=[{'use_sim_time': use_sim_time},
                             {'autostart': autostart},
                             {'node_names': lifecycle_nodes}]),
+            Node(package = "tf2_ros", 
+                executable = "static_transform_publisher",
+                arguments = ["0", "0", "0", "0", "0", "0", "map", "odom"]),
         ]
     )
 
