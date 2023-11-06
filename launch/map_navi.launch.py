@@ -29,11 +29,6 @@ def generate_launch_description():
             get_package_share_directory('mbs_nav2_template'),
             'param',
             'nav2_map.yaml'))
-
-    rviz_config_dir = os.path.join(
-        get_package_share_directory('diablo_viz'),
-        'rviz',
-        'nav2_view.rviz')
     
     nav2_launch_file_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
     
